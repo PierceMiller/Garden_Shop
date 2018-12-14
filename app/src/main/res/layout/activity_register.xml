@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    tools:context="com.plantatree.plantatree.Login_Register">
+
+    <TextView
+        android:id="@+id/text_view_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_emailReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_text_regPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edit_text_confirm"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_text_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="221dp"
+        android:ems="10"
+        android:hint="Confirm"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/edit_text_emailReg"
+        android:layout_marginBottom="130dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/button_regLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edit_text_emailReg"
+        android:layout_alignTop="@+id/button_register"
+        android:text="Login" />
+</RelativeLayout>

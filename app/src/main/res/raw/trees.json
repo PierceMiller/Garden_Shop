@@ -1,0 +1,30 @@
+{
+  "trees": [
+    {
+      "treeName": "Treebeard",
+      "description": "Treebeard is a fictional character from J. R. R. Tolkien's Middle-earth fantasy writings. The eldest of the species of Ents, he is said to live in the ancient Forest of Fangorn and stands fourteen feet in height.",
+      "imageUrl": "treebeard.jpg",
+      "price": 1000
+    },
+    {
+      "treeName": "Oak Tree",
+      "description": "An oak is a tree or shrub in the genus Quercus of the beech family, Fagaceae. There are approximately 600 extant species of oaks.",
+      "imageUrl": "oak_tree.jpg",
+      "price": 80
+    },
+    {
+      "treeName": "Kauri Tree",
+      "description": "Agathis australis, commonly known by its Māori name kauri, is a coniferous tree of Araucariaceae in the genus Agathis, found north of 38°S in the northern districts of New Zealand's North Island.",
+      "imageUrl": "kauri_tree.jpg",
+      "price": 150
+    },
+    {
+      "treeName": "Palm Tree",
+      "description": "The Arecaceae are a botanical family of perennial plants. Their growth form can be climbers, shrubs, trees and stemless plants, all commonly known as palms.",
+      "imageUrl": "palm_tree",
+      "price": 50
+    }
+  ]
+
+
+}

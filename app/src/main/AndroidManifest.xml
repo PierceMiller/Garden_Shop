@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stream53.plantatree.plantatree">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/plantatree"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.plantatree.plantatree.Login_Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.plantatree.plantatree.Catalogue_Activity"/>
+        <activity android:name="com.plantatree.plantatree.Shopping_Cart"/>
+        <activity android:name="com.plantatree.plantatree.Catalogue_Details"/>
+        <activity android:name="com.plantatree.plantatree.Login_Login"/>
+        <activity android:name="com.plantatree.plantatree.Quiz_Start"/>
+        <activity android:name="com.plantatree.plantatree.Quiz_Activity"/>
+        <activity android:name="com.plantatree.plantatree.Image_Drag"/>
+        <activity android:name="com.plantatree.plantatree.Pay_Shipping"/>
+        <activity android:name="com.plantatree.plantatree.Pay_Payment"/>
+        <activity android:name="com.plantatree.plantatree.Pay_Confirmation"/>
+
+    </application>
+
+</manifest>

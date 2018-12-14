@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PlantATree</string>
+    <string name="quantity">Quantity</string>
+    <string name="initial_cost">$0.00</string>
+    <string name="initial_quantity_value">1</string>
+    <string name="total">Total</string>
+    <string name="price">PRICE: </string>
+    <string name="action_cart">Shopping Cart</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="tree_name">Tree Name</string>
+    <string name="button">button</string>
+    <string name="textview">textview</string>
+    <string name="first_name">first_name</string>
+    <string name="last_name">last_name</string>
+    <string name="email">email</string>
+    <string name="shipping_phone">shipping_phone</string>
+    <string name="address_line_2">address_line_2</string>
+    <string name="city_town">city_town</string>
+    <string name="postcode">postcode</string>
+    <string name="country">country</string>
+    <string name="address_line_1">address_line_1</string>
+    <string name="_2_payment">2. Payment</string>
+    <string name="back_to_shipping_details">Back to shipping details</string>
+    <string name="card_number">Card Number</string>
+    <string name="month">Month</string>
+    <string name="cvv">CVV</string>
+    <string name="year">Year</string>
+    <string name="name_on_card">Name On Card</string>
+
+</resources>

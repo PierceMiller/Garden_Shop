@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <TextView android:id="@+id/Product_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="24dip"
+        android:layout_margin="5dip"
+        android:text="Product Catalog">
+    </TextView>
+
+    <ListView
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/ListViewCatalog"
+        android:layout_width="fill_parent"
+        android:background="@null"
+        android:clickable="true"
+        android:cacheColorHint="@null">
+    </ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_gravity="right"
+        android:id="@+id/button_view_cart"
+        android:text="View Shopping Cart"></Button>
+</LinearLayout>

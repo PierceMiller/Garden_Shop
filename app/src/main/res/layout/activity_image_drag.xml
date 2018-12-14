@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/image_example"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_home_image" >
+
+    <ImageView
+        android:id="@+id/image_view_drag"
+        android:layout_width="282dp"
+        android:layout_height="318dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tree_launcher" />
+
+</RelativeLayout>
