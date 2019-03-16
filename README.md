@@ -5,7 +5,7 @@ Software Engineering Assignment 2
 # What I Learned
 
 - SQL Database
-- Superimpose Images
+- Superimposing Images
 - Login System
 - The importance of a helper class
 - Organizing with HashMap
